@@ -9,3 +9,6 @@ JS Back-End Regular Exam SoftUni
 -Add resources to public
 -Add body parser
 -Add routes module
+4.Install and config handlebars
+-Install express-handlebars
+-config handlebars with express
