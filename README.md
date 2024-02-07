@@ -7,3 +7,5 @@ JS Back-End Regular Exam SoftUni
 -Start initial express server
 -Add static route
 -Add resources to public
+-Add body parser
+-Add routes module
