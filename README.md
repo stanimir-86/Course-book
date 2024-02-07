@@ -34,7 +34,8 @@ JS Back-End Regular Exam SoftUni
 -check if user exists
 7.Login
 -install jsonwebtoken
-
+-install cookie-parser
+-optionally:convert to promise based
 -Add login page
 -fix login form
 -Add login post action
@@ -42,5 +43,8 @@ JS Back-End Regular Exam SoftUni
   -validate user
   -validate password
   -generate token
+-Return cookie
+-Modify register for auto login
+
 
 
