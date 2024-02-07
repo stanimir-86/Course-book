@@ -34,5 +34,10 @@ JS Back-End Regular Exam SoftUni
 7.Login
 -Add login page
 -fix login form
+-Add login post action
+-Add authService login method
+  -validate user
+  -validate password
+  -generate token
 
 

@@ -22,15 +22,6 @@ userSchema.pre('save', async function () {
 
 });
 
-
-
-userSchema.virtual('rePassword')
-    .set(function (value) {
-        if (value !== this.password) {
-            throw new Error('Password missmatch');
-        }
-    });
-
 const User = mongoose.model('User', userSchema);
 
 module.exports = User;
