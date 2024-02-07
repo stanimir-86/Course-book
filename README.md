@@ -13,12 +13,17 @@ JS Back-End Regular Exam SoftUni
 -Install express-handlebars
 -config handlebars with express
 -Add views folder with resources
--Add home page
+-Add home view
+-Add home controller
+-Add homeControleer to routes
 -Add main layout
 -Add partial dir
 5.Database
 -Install mongoose
 -Set up DB connection
 -Add user model
+6.Authentication
+-Fix navigation links
+-add register page(view,controller,route)
 
 
