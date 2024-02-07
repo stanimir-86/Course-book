@@ -16,7 +16,9 @@ JS Back-End Regular Exam SoftUni
 -Add home page
 -Add main layout
 -Add partial dir
-5.Install & config database
+5.Database
 -Install mongoose
 -Set up DB connection
+-Add user model
+
 
