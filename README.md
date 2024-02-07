@@ -31,7 +31,10 @@ JS Back-End Regular Exam SoftUni
 -install bcrypt
 -Hash password
 -check confirm password
+-check if user exists
 7.Login
+-install jsonwebtoken
+
 -Add login page
 -fix login form
 -Add login post action
