@@ -22,9 +22,13 @@ JS Back-End Regular Exam SoftUni
 -Install mongoose
 -Set up DB connection
 -Add user model
-6.Authentication
+6.Register
 -Fix navigation links
 -add register page(view,controller,route)
 -Fix register form
+-Add post register action
+-Add authService
+-install bcrypt
+Hash password
 
 
