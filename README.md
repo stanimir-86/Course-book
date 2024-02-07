@@ -12,3 +12,6 @@ JS Back-End Regular Exam SoftUni
 4.Install and config handlebars
 -Install express-handlebars
 -config handlebars with express
+-Add views folder with resources
+-Add home page
+-Add main layout
