@@ -31,5 +31,7 @@ JS Back-End Regular Exam SoftUni
 -install bcrypt
 -Hash password
 -check confirm password
+7.Login
+-Add login page
 
 
