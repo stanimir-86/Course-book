@@ -29,6 +29,6 @@ JS Back-End Regular Exam SoftUni
 -Add post register action
 -Add authService
 -install bcrypt
-Hash password
+-Hash password
 
 
