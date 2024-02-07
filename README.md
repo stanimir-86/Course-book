@@ -5,4 +5,5 @@ JS Back-End Regular Exam SoftUni
 3.Install & config express
 -Initial express 
 -Start initial express server
-
+-Add static route
+-Add resources to public
