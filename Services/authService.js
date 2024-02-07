@@ -4,7 +4,7 @@ const jwt = require('../lib/jsonwebtoken');
 
 const User = require('../models/User');
 
-const SECRET = 'fghfdg7dfy7gbyfd87gf7sgsudajadkjaadhfdk'
+const { SECRET } = require('../config');
 
 
 exports.register = async (userData) => {
