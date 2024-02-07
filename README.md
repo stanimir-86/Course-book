@@ -25,5 +25,6 @@ JS Back-End Regular Exam SoftUni
 6.Authentication
 -Fix navigation links
 -add register page(view,controller,route)
+-Fix register form
 
 
