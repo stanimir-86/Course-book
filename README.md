@@ -35,6 +35,7 @@ JS Back-End Regular Exam SoftUni
 7.Login
 -install jsonwebtoken
 -install cookie-parser
+-Add cookieParser middleware
 -optionally:convert to promise based
 -Add login page
 -fix login form
@@ -52,5 +53,6 @@ JS Back-End Regular Exam SoftUni
 -verify token
 -Attach user to request object and res.locals
 -Use middleware in express
+-Add isAuth route guard
 
 
