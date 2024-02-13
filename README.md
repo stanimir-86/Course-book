@@ -47,12 +47,14 @@ JS Back-End Regular Exam SoftUni
 -Return cookie
 -Modify register for auto login
 8.Logout
-9.Authorization
+9.Authentication & Authorization
 -Add auth middleware
 -Check token is it guest
 -verify token
 -Attach user to request object and res.locals
 -Use middleware in express
 -Add isAuth route guard
+10.Fixes
+-Dynamic navigation
 
 
