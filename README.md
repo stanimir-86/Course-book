@@ -54,7 +54,11 @@ JS Back-End Regular Exam SoftUni
 -Attach user to request object and res.locals
 -Use middleware in express
 -Add isAuth route guard
-10.Fixes
+10.Error handling
+-Add notifications
+-Add register error handling
+-Add login error handling
+11.Fixes
 -Dynamic navigation
 
 
