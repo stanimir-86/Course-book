@@ -4,9 +4,17 @@ const { isAuth } = require('../middlewares/authMidleware.js');
 const courseService = require('../Services/courseService.js');
 const { getErrorMessage } = require('../utils/errorUtils.js');
 
+
 router.get('/', async (req, res) => {
     const courses = await courseService.getAll().lean();
     res.render('courses/catalog', { courses });
+
+});
+
+router.get('/:courseId/details', async (req, res) => {
+    const course = await courseService.getOne(req.params.courseId).lean();
+
+    res.render('courses/details', { ...course });
 
 });
 
@@ -14,6 +22,7 @@ router.get('/create', isAuth, (req, res) => {
     res.render('courses/create');
 
 });
+
 router.post('/create', isAuth, async (req, res) => {
     const courseData = req.body;
     try {
