@@ -21,4 +21,6 @@ exports.create = async (userId, courseData) => {
     });
     await User.findByIdAndUpdate(userId, { $push: { createdCourses: createdCourse._id } });
     return createdCourse;
-}
+};
+exports.delete = (courseId) => Course.findByIdAndDelete(courseId);
+
