@@ -4,6 +4,12 @@ const { getErrorMessage } = require('../utils/errorUtils.js');
 const courseService = require('../Services/courseService.js');
 const { isAuth } = require('../middlewares/authMidleware.js');
 
+router.get('/', isAuth, (req, res) => {
+    
+    res.render('courses/catalog');
+
+});
+
 router.get('/create', isAuth, (req, res) => {
     res.render('courses/create');
 
