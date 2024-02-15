@@ -27,11 +27,11 @@ const courseSchema = new mongoose.Schema({
     },
     signUpList: [{
         type: mongoose.Types.ObjectId,
-        ref: 'User',
+        ref: 'User'
     }],
     owner: {
         type: mongoose.Types.ObjectId,
-        ref: 'User',
+        ref: 'User'
     },
 
 });
