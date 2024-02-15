@@ -23,4 +23,6 @@ exports.create = async (userId, courseData) => {
     return createdCourse;
 };
 exports.delete = (courseId) => Course.findByIdAndDelete(courseId);
+exports.getLatest = () => Course.find().sort({ createdAt: -1 }).limit(3)
+exports.edit = (courseId, courseData) => Course.findByIdAndUpdate(courseId, courseData, { runValidators: true });
 
