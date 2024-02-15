@@ -18,6 +18,14 @@ const userSchema = new mongoose.Schema({
         required: [true, "Password is required"],
 
     },
+    createdCourses: [{
+        type:mongoose.Types.ObjectId,
+        ref:'Course',
+    }],
+    signeUpCourses: [{
+        type:mongoose.Types.ObjectId,
+        ref:'Course',
+    }],
 
 });
 
